@@ -16,8 +16,8 @@ import static com.example.gasolinerajava.BBDD.createBBDD;
 public class Main extends Application {
 
     public static void main(String[] args) throws SQLException {
-        launch();
         createBBDD();
+        launch();
     }
     private Stage primaryStage;
     private String combustible;
