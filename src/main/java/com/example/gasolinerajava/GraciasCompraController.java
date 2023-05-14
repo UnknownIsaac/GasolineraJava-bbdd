@@ -28,7 +28,7 @@ public class GraciasCompraController {
     private void handleVolverEmpezar() throws Exception {
         // Realiza la acción correspondiente cuando se presiona el botón Volver a empezar
         // Por ejemplo, mostrar la pantalla inicial del proceso de compra
-        main.showPantallaInicial();
+        main.showPantallaCombustible();
     }
 
     private void imprimirTicket() throws Exception {

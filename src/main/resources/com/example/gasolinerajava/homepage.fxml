@@ -4,8 +4,8 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.gasolinerajava.SeleccionCombustibleController">
-    <Label text="Selecciona el tipo de combustible:" />
-    <Button fx:id="btnGasolina" text="Gasolina" onAction="#handleGasolina" />
-    <Button fx:id="btnDiesel" text="Diésel" onAction="#handleDiesel" />
+<VBox alignment="CENTER" prefHeight="304.0" prefWidth="377.0" spacing="10" style="-fx-background-color: #aab; -fx-border-color: black; -fx-border-width: 2px; -fx-border-radius: 10px;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gasolinerajava.SeleccionCombustibleController">
+    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="124.0" prefWidth="347.0" style="-fx-font-family: Verdana; -fx-font-weight: bold;" text="Selecciona el tipo de combustible:" />
+    <Button fx:id="btnGasolina" onAction="#handleGasolina" style="-fx-font-family: Verdana;" text="Gasolina" />
+    <Button fx:id="btnDiesel" onAction="#handleDiesel" style="-fx-font-family: Verdana;" text="Diésel" />
 </VBox>
